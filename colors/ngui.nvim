@@ -35,23 +35,23 @@ endfun
 " Color Variables
 " ==========================
 
-let s:black         = { "gui": "#383c3e", "cterm16": "0" }
-let s:dark_red      = { "gui": "#d72638", "cterm16": "1" }
-let s:dark_green    = { "gui": "#88b92d", "cterm16": "2" }
-let s:dark_yellow   = { "gui": "#eb8413", "cterm16": "3" }
-let s:dark_blue     = { "gui": "#1e8bac", "cterm16": "4" }
-let s:dark_magenta  = { "gui": "#be4264", "cterm16": "5" }
-let s:dark_cyan     = { "gui": "#1ba595", "cterm16": "6" }
-let s:grey          = { "gui": "#dddddd", "cterm16": "7" }
-let s:dark_grey     = { "gui": "#53585b", "cterm16": "8" }
-let s:red           = { "gui": "#d72638", "cterm16": "9" }
-let s:green         = { "gui": "#88b92d", "cterm16": "10" }
-let s:yellow        = { "gui": "#f19d1a", "cterm16": "11" }
-let s:blue          = { "gui": "#1e8bac", "cterm16": "12" }
-let s:magenta       = { "gui": "#be4264", "cterm16": "13" }
-let s:cyan          = { "gui": "#1ba595", "cterm16": "14" }
-let s:white         = { "gui": "#e5e5e5", "cterm16": "15" }
-let s:none          = { "gui": 'NONE',    'cterm16': 'NONE' }
+let s:black = { "gui": "#383c3e", "cterm16": "0" }
+let s:dark_red = { "gui": "#d72638", "cterm16": "1" }
+let s:dark_green = { "gui": "#88b92d", "cterm16": "2" }
+let s:dark_yellow = { "gui": "#eb8413", "cterm16": "3" }
+let s:dark_blue = { "gui": "#1e8bac", "cterm16": "4" }
+let s:dark_magenta = { "gui": "#be4264", "cterm16": "5" }
+let s:dark_cyan = { "gui": "#1ba595", "cterm16": "6" }
+let s:grey = { "gui": "#dddddd", "cterm16": "7" }
+let s:dark_grey = { "gui": "#53585b", "cterm16": "8" }
+let s:red = { "gui": "#d72638", "cterm16": "9" }
+let s:green = { "gui": "#88b92d", "cterm16": "10" }
+let s:yellow = { "gui": "#f19d1a", "cterm16": "11" }
+let s:blue = { "gui": "#1e8bac", "cterm16": "12" }
+let s:magenta = { "gui": "#be4264", "cterm16": "13" }
+let s:cyan = { "gui": "#1ba595", "cterm16": "14" }
+let s:white = { "gui": "#e5e5e5", "cterm16": "15" }
+let s:none = { "gui": 'NONE', 'cterm16': 'NONE' }
 
 " ==========================
 " Definitions
