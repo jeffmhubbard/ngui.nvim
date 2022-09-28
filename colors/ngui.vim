@@ -1,5 +1,5 @@
 " ==========================
-" ngui.nvim
+" ngui.vim
 " A neovim colorscheme
 " ==========================
 
