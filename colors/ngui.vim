@@ -144,7 +144,8 @@ call <sid>hi('WarningMsg', s:red, s:none, 'bold')
 
 call <sid>hi('TelescopeBorder', s:black, s:none, 'none')
 call <sid>hi('TelescopeTitle', s:white, s:none, 'bold')
-call <sid>hi('TelescopeMatching', s:black, s:blue, 'italics')
+call <sid>hi('TelescopeSelection', s:black, s:blue, '')
+call <sid>hi('TelescopeMatching', s:black, s:yellow, 'italics')
 
 " ==========================
 " Misc
