@@ -142,8 +142,7 @@ call <sid>hi('WarningMsg', s:red, s:none, 'bold')
 " Plugins
 " ==========================
 
-hi link TelescopeBorder NonText
-
+call <sid>hi('TelescopeBorder', s:black, s:none, 'none')
 call <sid>hi('TelescopeTitle', s:white, s:none, 'bold')
 call <sid>hi('TelescopeMatching', s:black, s:blue, 'italics')
 
