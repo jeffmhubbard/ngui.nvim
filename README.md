@@ -1,1 +1,1 @@
-# ngui.nvim
+# ngui.vim

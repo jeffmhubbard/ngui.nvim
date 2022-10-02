@@ -147,7 +147,7 @@ call <sid>hi('TelescopeTitle', s:white, s:none, 'bold')
 call <sid>hi('TelescopeSelection', s:black, s:blue, 'none')
 call <sid>hi('TelescopeMatching', s:black, s:white, 'italics')
 
-call <sid>hi('Directory', s:black, s:white, 'none')
+call <sid>hi('NvimTreeFolderIcon', s:red, s:white, 'none')
 
 " ==========================
 " Misc
