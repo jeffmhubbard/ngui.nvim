@@ -35,13 +35,11 @@ endfun
 " Color Variables
 " ==========================
 
+let s:fg = { "gui": "#d5d5d5", "cterm16": "15" }
+let s:bg = { "gui": "#1d2021", "cterm16": "0" }
+
 let s:black = { "gui": "#383c3e", "cterm16": "0" }
-let s:dark_red = { "gui": "#d72638", "cterm16": "1" }
-let s:dark_green = { "gui": "#88b92d", "cterm16": "2" }
-let s:dark_yellow = { "gui": "#eb8413", "cterm16": "3" }
-let s:dark_blue = { "gui": "#1e8bac", "cterm16": "4" }
-let s:dark_magenta = { "gui": "#be4264", "cterm16": "5" }
-let s:dark_cyan = { "gui": "#1ba595", "cterm16": "6" }
+let s:orange = { "gui": "#eb8413", "cterm16": "3" }
 let s:grey = { "gui": "#dddddd", "cterm16": "7" }
 let s:dark_grey = { "gui": "#53585b", "cterm16": "8" }
 let s:red = { "gui": "#d72638", "cterm16": "9" }
@@ -51,6 +49,7 @@ let s:blue = { "gui": "#1e8bac", "cterm16": "12" }
 let s:magenta = { "gui": "#be4264", "cterm16": "13" }
 let s:cyan = { "gui": "#1ba595", "cterm16": "14" }
 let s:white = { "gui": "#e5e5e5", "cterm16": "15" }
+
 let s:none = { "gui": 'NONE', 'cterm16': 'NONE' }
 
 " ==========================
@@ -103,7 +102,7 @@ call <sid>hi('Define', s:blue, s:none, 'none')
 call <sid>hi('Delimiter', s:grey, s:none, 'none')
 call <sid>hi('DiffAdd', s:green, s:none, 'none')
 call <sid>hi('DiffChange', s:yellow, s:none, 'none')
-call <sid>hi('DiffDelete', s:dark_red, s:none, 'none')
+call <sid>hi('DiffDelete', s:red, s:none, 'none')
 call <sid>hi('DiffText', s:dark_grey, s:none, 'none')
 call <sid>hi('Error', s:red, s:none, 'none')
 call <sid>hi('Exception', s:blue, s:none, 'none')
@@ -116,18 +115,18 @@ call <sid>hi('Label', s:blue, s:none, 'none')
 call <sid>hi('Marco', s:cyan, s:none, 'none')
 call <sid>hi('Number', s:yellow, s:none, 'none')
 call <sid>hi('Operator', s:magenta, s:none, 'none')
-call <sid>hi('PreCondit', s:dark_blue, s:none, 'none')
+call <sid>hi('PreCondit', s:blue, s:none, 'none')
 call <sid>hi('PreProc', s:blue, s:none, 'none')
 call <sid>hi('Repeat', s:blue, s:none, 'none')
 call <sid>hi('Special', s:grey, s:none, 'none')
 call <sid>hi('SpecialComment', s:yellow, s:dark_grey, 'none')
 call <sid>hi('SpellBad', s:red, s:none, 'underline')
-call <sid>hi('SpellCap', s:dark_yellow, s:none, 'underline')
-call <sid>hi('SpellLocal', s:dark_yellow, s:none, 'underline')
-call <sid>hi('SpellRare', s:dark_yellow, s:none, 'underline')
+call <sid>hi('SpellCap', s:orange, s:none, 'underline')
+call <sid>hi('SpellLocal', s:orange, s:none, 'underline')
+call <sid>hi('SpellRare', s:orange, s:none, 'underline')
 call <sid>hi('Statement', s:blue, s:none, 'none')
 call <sid>hi('StorageClass', s:yellow, s:none, 'none')
-call <sid>hi('Structure', s:dark_green, s:none, 'none')
+call <sid>hi('Structure', s:green, s:none, 'none')
 call <sid>hi('String', s:green, s:none, 'none')
 call <sid>hi('Tag', s:yellow, s:none, 'none')
 call <sid>hi('Title', s:none, s:none, 'bold')
@@ -148,6 +147,7 @@ call <sid>hi('TelescopeSelection', s:black, s:blue, 'none')
 call <sid>hi('TelescopeMatching', s:black, s:white, 'italics')
 
 call <sid>hi('NvimTreeFolderIcon', s:red, s:none, 'none')
+call <sid>hi('NvimTreeFolderName', s:red, s:none, 'none')
 
 " ==========================
 " Misc
