@@ -146,8 +146,11 @@ call <sid>hi('TelescopeTitle', s:white, s:none, 'bold')
 call <sid>hi('TelescopeSelection', s:black, s:blue, 'none')
 call <sid>hi('TelescopeMatching', s:black, s:white, 'italics')
 
-call <sid>hi('NvimTreeFolderIcon', s:red, s:none, 'none')
-call <sid>hi('NvimTreeFolderName', s:red, s:none, 'none')
+" call <sid>hi('NvimTreeFolderIcon', s:red, s:none, 'none')
+" call <sid>hi('NvimTreeFolderName', s:red, s:none, 'none')
+
+hi NvimTreeFolderIcon guifg=#ff0000
+hi NvimTreeFolderName guifg=#ff0000
 
 " ==========================
 " Misc
