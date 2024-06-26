@@ -40,7 +40,7 @@ let s:bg = { "gui": "#1d2021", "cterm16": "0" }
 
 let s:black = { "gui": "#383c3e", "cterm16": "0" }
 let s:orange = { "gui": "#eb8413", "cterm16": "3" }
-let s:grey = { "gui": "#dddddd", "cterm16": "7" }
+let s:grey      = { "gui": "#dddddd", "cterm16": "7" }
 let s:dark_grey = { "gui": "#53585b", "cterm16": "8" }
 let s:red = { "gui": "#d72638", "cterm16": "9" }
 let s:green = { "gui": "#88b92d", "cterm16": "10" }
@@ -90,6 +90,7 @@ call <sid>hi('Title', s:green, s:none, 'none')
 call <sid>hi('VertSplit', s:dark_grey, s:none, 'none')
 call <sid>hi('Visual', s:black, s:grey, 'none')
 call <sid>hi('VisualNOS', s:black, s:none, 'none')
+call <sid>hi('WinBar', s:grey, s:none, 'none')
 call <sid>hi('WildMenu', s:black, s:white, 'none')
 
 " General
@@ -144,8 +145,16 @@ call <sid>hi('WarningMsg', s:red, s:none, 'bold')
 call <sid>hi('TelescopeBorder', s:black, s:none, 'none')
 call <sid>hi('TelescopeTitle', s:white, s:none, 'bold')
 call <sid>hi('TelescopeSelection', s:black, s:blue, 'none')
-call <sid>hi('TelescopeMatching', s:black, s:white, 'italics')
+call <sid>hi('TelescopeMatching', s:black, s:white, 'none')
 
+" ==========================
+" Misc
+" ==========================
+
+set background=dark
+
+
+" vim: set ft=vim:
 hi! link NvimTreeFolderIcon Blue
 "call <sid>hi('NvimTreeSymlink', s:red, s:none, 'none')
 "call <sid>hi('NvimTreeFolderName', s:red, s:none, 'none')
@@ -159,11 +168,5 @@ hi! link NvimTreeFolderIcon Blue
 "call <sid>hi('NvimTreeImageFile', s:red, s:none, 'none')
 "call <sid>hi('NvimTreeIndentMarker', s:red, s:none, 'none')
 
-" ==========================
-" Misc
-" ==========================
+hi NvimTreeVertSplit guifg=none guibg=none ctermfg=none ctermbg=none
 
-set background=dark
-
-
-" vim: set ft=vim:
